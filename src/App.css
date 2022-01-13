@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Inknut+Antiqua:wght@300&display=swap');
+
+.App{
+    font-family: 'Hind', sans-serif;
+    max-width: 95%;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+#info{
+    border-top: 2px solid #cecbc3;
+}

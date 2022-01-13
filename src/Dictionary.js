@@ -26,15 +26,18 @@ function updateWord(event){
 
 return (
     <div className="Dictionary">
- <h1 className="text-center mt-5" >Dictionary 📖</h1>
+ <h1 className="text-center my-5 pt-5" id="title" >Dictionary 📖</h1>
   <form className="text-center mt-2" onSubmit={searchWord}>
-  <input type={"text"} placeholder="Enter a word..." onChange={updateWord} />
-  <input type={"submit"} value={"Search"} />
+  <input type={"text"} placeholder="Type a word..." className="search-bar"  onChange={updateWord} />
   </form>
-  <div className="row m-5">
-<div className="col-sm-6 text-left">
+  <p className="mt-4 text-center">Suggested words: Banana, Dog, Carrot, Sun...</p>
+  <div className="row m-5" id="info">
+<div className="col-sm-6 text-left my-5">
 <Results results={results} />
 </div>
+<div className='text-center fs-5'>
+        <p> <a href='https://github.com/joanatorres96/Dictionary-App'title='Github Link' target={"_blank"} rel={"noreferrer"} className='link'>Open-source code</a>{" by "}<a href='https://cranky-poincare-a3701c.netlify.app/' target={"_blank"} rel={"noreferrer"} className='link'>Joana Torres</a>. </p>
+      </div>
   </div>
   
     </div>
