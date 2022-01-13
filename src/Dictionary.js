@@ -15,7 +15,6 @@ setResults(response.data[0]);
 
 function searchWord(event){
     event.preventDefault();
-    alert(`Searching ${word}`);
 
     let apiUrl= `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
     axios.get(apiUrl).then(handleResponse);
