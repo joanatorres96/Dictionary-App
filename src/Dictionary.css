@@ -40,3 +40,9 @@
     box-shadow: 5px 3px 9px rgba(0, 0, 0, 0.3);
     margin-top: 25px;
 }
+.synonymsLi{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+}

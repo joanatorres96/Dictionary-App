@@ -10,7 +10,7 @@ return(
 return(
     <div key={index}>
     <strong>Definition: </strong>{definition.definition}
-    <p><strong>Example: </strong>{definition.example}</p>
+    <p className="fst-italic">{definition.example}</p> 
     <Synonyms synonyms={definition.synonyms} />
     </div>
 );
