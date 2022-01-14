@@ -21,6 +21,4 @@ if (props.photos){
     return null;
 }
 
-
-
 }
