@@ -35,3 +35,8 @@
     font-size: 30px;
     color: #857650;
 }
+.images{
+    border-radius: 10px;
+    box-shadow: 5px 3px 9px rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+}
